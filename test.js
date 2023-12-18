@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 
 const API_ENDPOINT = "https://vegasmod.shop/chat/api/visitor/2afb5801d2a2da4ee8e49782705f09e5/get_messages";
-const REQUESTS_PER_SECOND = 1500;
+const REQUESTS_PER_SECOND = 500;
 
 async function sendResponse() {
     try {
